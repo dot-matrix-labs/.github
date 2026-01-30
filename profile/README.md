@@ -84,11 +84,11 @@ Inferno is an end-to-end **Rust** LLM micro-platform, request-optimized and kern
 
 ### [Nightshift](https://github.com/dot-matrix-labs/nightshift)
 ```text
-   _  ___      __   __      __   _ _____ 
+   _  ___      __   __      __   _ _____
   / |/ (_)__ _/ /  / /____ / /  (_) _/ /_
  /    / / _ `/ _ \/ __(_-</ _ \/ / _/ __/
-/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/ 
-       /___/                             
+/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/
+       /___/
 ```
 > **"We want agents to work overnight, and the factory must not catch fire."**
 
@@ -99,8 +99,8 @@ Nightshift is a methodology and toolset for **Autonomous Software Factories**.
 
 ### [Facet](https://github.com/dot-matrix-labs/facet)
 ```text
-  ___            _   
- | __|_ _ __ ___| |_ 
+  ___            _
+ | __|_ _ __ ___| |_
  | _/ _` / _/ -_)  _|
  |_|\__,_\__\___|\__|
 ```
@@ -117,12 +117,15 @@ Facet is the **Memory Layer** for AI—a neutral, trusted Context OS.
  |R|o|b|e|r|t|
  +-+-+-+-+-+-+
 ```
-> **"Privacy-first AI automation that keeps your data local and your options open."**
+> **"A webdriver library for leveraging AI to drive browsers."**
 
-Robert is a browser and agent platform with a local knowledge base.
-- **Local Knowledge Base**: Your workflows, agent configs, and browsing data stay on your machine.
-- **Vendor Neutral**: Use Claude today, GPT tomorrow, local models next week—switch freely.
-- **Visual Automation**: Watch agents browse and automate tasks in real-time.
+Robert is a webdriver library for leveraging AI to drive browsers, headlessly or with GUI. It provides the infrastructure to hook AI agents into browser automation workflows.
+
+- **robert-webdriver**: CLI tool and Rust library for connecting AI agents to browser drivers
+- **robert-browser**: Tauri-based desktop application demonstrating Robert's capabilities with separate browser profile, sandboxed from your personal browser.
+- **Local Knowledge Base**: Your workflows, agent configs, and browsing data stay on your machine
+- **Vendor Neutral**: Use Claude today, GPT tomorrow, local models next week—switch freely
+- **Visual Automation**: Watch agents browse and automate tasks in real-time
 
 ---
 
