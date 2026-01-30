@@ -56,13 +56,13 @@
 
 <div align="center">
 
-| **MEMORY** | **FACTORY** |
+| **INFERENCE** | **FACTORY** |
 |:---:|:---:|
-| [![Facet](https://img.shields.io/badge/FACET-Context_OS-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI.<br>Unbundles context from the model.<br>Your data stays yours. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>A methodology for agents to build<br>software while you sleep. |
+| [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Self-Healing Cloud**.<br>High-performance Rust LLM platform<br>inspired by Cloudflare Infire. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>A methodology for agents to build<br>software while you sleep. |
 
-| **BROWSER** | **INFERENCE** |
+| **MEMORY** | **BROWSER** |
 |:---:|:---:|
-| [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **Local AI Browser**.<br>Privacy-first automation that<br>keeps your browsing history local. | [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Self-Healing Cloud**.<br>High-performance Rust LLM platform<br>inspired by Cloudflare Infire. |
+| [![Facet](https://img.shields.io/badge/FACET-Context_OS-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI.<br>Unbundles context from the model.<br>Your data stays yours. | [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **Local AI Browser**.<br>Privacy-first automation that<br>keeps your browsing history local. |
 
 </div>
 
