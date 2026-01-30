@@ -1,42 +1,40 @@
-<div align="center">
+
 
 ```text
 
-██████╗  ██████╗ ████████╗
-██╔══██╗██╔═══██╗╚══██╔══╝
-██║  ██║██║   ██║   ██║
-██║  ██║██║   ██║   ██║
-██████╔╝╚██████╔╝   ██║
-╚═════╝  ╚═════╝    ╚═╝
+          ██████╗  ██████╗ ████████╗
+          ██╔══██╗██╔═══██╗╚══██╔══╝
+          ██║  ██║██║   ██║   ██║
+          ██║  ██║██║   ██║   ██║
+          ██████╔╝╚██████╔╝   ██║
+          ╚═════╝  ╚═════╝    ╚═╝
 
-███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
-████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
-██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝
-██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗
-██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
-╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+          ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
+          ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
+          ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝
+          ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗
+          ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
+          ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
 
-██╗      █████╗ ██████╗ ███████╗
-██║     ██╔══██╗██╔══██╗██╔════╝
-██║     ███████║██████╔╝███████╗
-██║     ██╔══██║██╔══██╗╚════██║
-███████╗██║  ██║██████╔╝███████║
-╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
+          ██╗      █████╗ ██████╗ ███████╗
+          ██║     ██╔══██╗██╔══██╗██╔════╝
+          ██║     ███████║██████╔╝███████╗
+          ██║     ██╔══██║██╔══██╗╚════██║
+          ███████╗██║  ██║██████╔╝███████║
+          ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
 
-A Factory for Autonomous Intelligence
+          A Factory for Autonomous Intelligence
 
---       --
-|  * * *  |
-|  * * *  |
-|  * * *  |
---       --
+          --       --
+          |  * * *  |
+          |  * * *  |
+          |  * * *  |
+          --       --
 
 ```
 
 
 
-
-</div>
 
 ---
 
@@ -68,6 +66,12 @@ A Factory for Autonomous Intelligence
 ## Project Summaries
 
 ### [Facet](https://github.com/dot-matrix-labs/facet)
+```text
+  ___            _   
+ | __|_ _ __ ___| |_ 
+ | _/ _` / _/ -_)  _|
+ |_|\__,_\__\___|\__|
+```
 > **"Just as the Browser unbundled the OS from the Web, Facet unbundles Memory from the Model."**
 
 Facet is the **Context OS** that sits between you and the AI.
@@ -76,6 +80,13 @@ Facet is the **Context OS** that sits between you and the AI.
 - **Tech**: Built in Rust with a Tauri frontend and SurrealDB graph store.
 
 ### [Nightshift](https://github.com/dot-matrix-labs/nightshift)
+```text
+   _  ___      __   __      __   _ _____ 
+  / |/ (_)__ _/ /  / /____ / /  (_) _/ /_
+ /    / / _ `/ _ \/ __(_-</ _ \/ / _/ __/
+/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/ 
+       /___/                             
+```
 > **"We want agents to work overnight, and the factory must not catch fire."**
 
 Nightshift is a protocol for **Autonomous Software Factories**.
@@ -84,6 +95,11 @@ Nightshift is a protocol for **Autonomous Software Factories**.
 - **Deep Context**: A "Documentation Fractal" for self-orienting agents.
 
 ### [Robert](https://github.com/dot-matrix-labs/robert-desktop)
+```text
+ +-+-+-+-+-+-+
+ |R|o|b|e|r|t|
+ +-+-+-+-+-+-+
+```
 > **"Privacy-first AI automation that keeps your data local and your options open."**
 
 Robert is a web browser designed for the age of agents.
@@ -92,6 +108,10 @@ Robert is a web browser designed for the age of agents.
 - **Visual**: Watch agents browse and automate tasks in real-time.
 
 ### [Inferno](https://github.com/dot-matrix-labs/inferno)
+```text
+ _ __ _ ____ ____ ____ __ _ ____
+ | | \| |--- |=== |--< | \| [__]
+```
 > **"A self-healing cloud for AI inference."**
 
 Inferno is an end-to-end Rust LLM platform.
@@ -100,9 +120,3 @@ Inferno is an end-to-end Rust LLM platform.
 - **Safety**: Pure Rust stack, eliminating memory safety vulnerabilities.
 
 ---
-
-<div align="center">
-
-*Built with Rust by the Dot Matrix Labs team.*
-
-</div>
