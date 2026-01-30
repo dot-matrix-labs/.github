@@ -38,17 +38,6 @@
 
 ---
 
-## License
-
-All Dot Matrix Labs projects are available under a **dual license**:
-
-- **Non-Commercial**: Apache 2.0 or MIT, your choice
-- **Commercial**: Requires a commercial license, with reciprocal terms for businesses that open source their operational software
-
-See [LICENSE](https://github.com/dot-matrix-labs/.github/blob/main/LICENSE) for full terms.
-
----
-
 ## Our Mission
 
 **Dot Matrix Labs** builds infrastructure for the multi-agent future. We believe the next era of software will be written by constellations of AI agents—not locked to a single vendor, but orchestrated across providers. Our tools make that future possible.
@@ -134,5 +123,16 @@ Robert is a browser and agent platform with a local knowledge base.
 - **Local Knowledge Base**: Your workflows, agent configs, and browsing data stay on your machine.
 - **Vendor Neutral**: Use Claude today, GPT tomorrow, local models next week—switch freely.
 - **Visual Automation**: Watch agents browse and automate tasks in real-time.
+
+---
+
+## License
+
+All Dot Matrix Labs projects are available under a **dual license**:
+
+- **Non-Commercial**: Apache 2.0 or MIT, your choice
+- **Commercial**: Requires a commercial license, with reciprocal terms for businesses that open source their operational software
+
+See [LICENSE](https://github.com/dot-matrix-labs/.github/blob/main/LICENSE) for full terms.
 
 ---
