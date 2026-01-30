@@ -38,6 +38,18 @@
 
 ---
 
+## License
+
+All Dot Matrix Labs projects are released under the **Reciprocal Open Source License (ROSL)**:
+
+- **Researchers & Individuals**: Apache 2.0 or MIT, your choice
+- **Open Source Businesses**: Reciprocal—use the same license as your own OSS
+- **Proprietary Businesses**: BSL 1.1 (source available, converts to Apache after 4 years)
+
+See [LICENSE](https://github.com/dot-matrix-labs/.github/blob/main/LICENSE) for full terms.
+
+---
+
 ## Our Mission
 
 **Dot Matrix Labs** builds infrastructure for the multi-agent future. We believe the next era of software will be written by constellations of AI agents—not locked to a single vendor, but orchestrated across providers. Our tools make that future possible.
