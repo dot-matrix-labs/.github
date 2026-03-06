@@ -1,141 +1,216 @@
+              ██████╗  ██████╗ ████████╗
+              ██╔══██╗██╔═══██╗╚══██╔══╝
+              ██║  ██║██║   ██║   ██║
+              ██║  ██║██║   ██║   ██║
+              ██████╔╝╚██████╔╝   ██║
+              ╚═════╝  ╚═════╝    ╚═╝
+
+              ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
+              ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
+              ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝
+              ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗
+              ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
+              ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+
+              ██╗      █████╗ ██████╗ ███████╗
+              ██║     ██╔══██╗██╔══██╗██╔════╝
+              ██║     ███████║██████╔╝███████╗
+              ██║     ██╔══██║██╔══██╗╚════██║
+              ███████╗██║  ██║██████╔╝███████║
+              ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
+
+# Dot Matrix Labs
+
+**Autonomous Software Research Lab**
+
+Dot Matrix Labs is an open research lab exploring the infrastructure
+required for a world where software is designed, built, and maintained
+by **autonomous AI systems**.
+
+We study how constellations of agents can collaborate to produce
+software, operate infrastructure, and evolve systems faster than
+traditional development models allow.
+
+Our work focuses on **autonomous software systems**, **AI-native
+infrastructure**, and **post-human development models**.
+
+------------------------------------------------------------------------
+
+## A Moment of Opportunity
+
+Software is entering a new era.
+
+For decades, the limiting factor in software quality has been **human
+time**. Testing, verification, documentation, and security review are
+all expensive processes that teams must constantly trade against
+deadlines.
+
+Autonomous systems change that constraint.
+
+AI agents can read every line of a codebase, trace every dependency,
+explore every edge case, and continuously refine systems at a scale that
+human teams cannot realistically sustain.
+
+If used correctly, this enables something new:
+
+-   deeper testing
+-   stronger verification
+-   better documentation
+-   more resilient infrastructure
+-   faster iteration with higher confidence
+
+In other words, **software that is more reliable, more understandable,
+and more maintainable than what we can build today.**
+
+Dot Matrix Labs explores the infrastructure required to make that future
+practical.
+
+Our goal is not to replace software engineers.
+
+Our goal is to build systems where humans and autonomous agents
+collaborate to produce **the most robust software systems ever
+created.**
+
+------------------------------------------------------------------------
+
+## Research Areas
+
+Our research explores several emerging domains:
+
+**Autonomous Software Factories**\
+Systems where AI agents design, write, test, and deploy software.
+
+**Multi-Agent Orchestration**\
+Coordinating specialized AI systems across providers and reasoning
+models.
+
+**Vendor-Neutral AI Infrastructure**\
+Architecture that avoids lock-in to any single model provider.
+
+**AI-Native Tooling**\
+Browsers, memory systems, and operational frameworks designed for agents
+rather than humans.
+
+**Post-Human Software Architecture**\
+Exploring what software engineering becomes when AI is the primary
+author of code.
+
+------------------------------------------------------------------------
+
+## Research Philosophy
+
+Dot Matrix Labs operates as a **systems research lab** focused on the
+infrastructure required for autonomous software development.
+
+Our work is guided by several principles:
+
+### Systems Over Demos
+
+We prioritize **production-grade systems** over isolated prototypes.\
+Research artifacts are designed to operate in real infrastructure
+environments, not just laboratory conditions.
+
+### Open Infrastructure
+
+The future of AI development should not depend on a single model
+provider.
+
+Our systems emphasize **vendor-neutral orchestration**, allowing
+workflows to move between providers and local models as capabilities
+evolve.
+
+### Agents as First-Class Developers
+
+Most developer tooling assumes humans are the primary authors of code.
+
+We design infrastructure where **AI agents are first-class participants
+in the development lifecycle**.
+
+### Research Through Building
+
+Many of the most important computing breakthroughs emerged from
+**working systems**, not theoretical papers.
+
+Dot Matrix Labs explores ideas by **building operational infrastructure
+and releasing it publicly**.
+
+------------------------------------------------------------------------
+
+## Our Research
+
+### Alien Stack
+
+Alien Stack is an experimental research program exploring **post-human
+software architecture**.
+
+Traditional software stacks assume humans are the primary authors of
+code.\
+Alien Stack explores the opposite premise:
+
+> Software ecosystems designed primarily for **AI authorship and
+> autonomous evolution**.
+
+This work investigates new primitives for:
+
+-   agent-native infrastructure
+-   autonomous development environments
+-   AI-managed software lifecycles
+-   self-modifying systems
+
+Alien Stack represents our exploration of **what software engineering
+becomes when AI agents are the primary developers**.
+
+### Inferno
+
+A high-performance LLM inference platform focused on reliability,
+efficiency, and scalable deployment for autonomous systems.
+
+### Nightshift
+
+A methodology and toolset for **autonomous software factories**,
+enabling agents to collaborate on development tasks and produce
+maintainable software systems.
+
+### Facet
+
+A **memory and context layer for AI systems**, separating persistent
+knowledge from model inference and allowing portable context management.
+
+### Robert
+
+An automation framework enabling **AI-driven browser workflows**,
+allowing agents to interact with the web, execute tasks, and integrate
+with external systems.
+
+------------------------------------------------------------------------
+
+## Our Product
+
+### Calypso
+
+Calypso is the **production platform** emerging from research conducted
+at Dot Matrix Labs.
+
+It provides a turnkey environment for deploying and operating
+**autonomous AI systems** in real-world applications.
+
+Calypso integrates many of the ideas explored in our research into a
+cohesive operational platform.
+
+Deployment models include:
+
+-   Community --- open infrastructure
+-   Managed --- hosted platform
+-   Enterprise --- dedicated deployments
 
 
-```text
+------------------------------------------------------------------------
 
-          ██████╗  ██████╗ ████████╗
-          ██╔══██╗██╔═══██╗╚══██╔══╝
-          ██║  ██║██║   ██║   ██║
-          ██║  ██║██║   ██║   ██║
-          ██████╔╝╚██████╔╝   ██║
-          ╚═════╝  ╚═════╝    ╚═╝
-
-          ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
-          ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
-          ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝
-          ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗
-          ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
-          ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
-
-          ██╗      █████╗ ██████╗ ███████╗
-          ██║     ██╔══██╗██╔══██╗██╔════╝
-          ██║     ███████║██████╔╝███████╗
-          ██║     ██╔══██║██╔══██╗╚════██║
-          ███████╗██║  ██║██████╔╝███████║
-          ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
-
-          A Factory for Autonomous Intelligence
-
-          --       --
-          |  * * *  |
-          |  * * *  |
-          |  * * *  |
-          --       --
-
-```
-
-
-
-
----
-
-## Our Mission
-
-**Dot Matrix Labs** builds infrastructure for the multi-agent future. We believe the next era of software will be written by constellations of AI agents—not locked to a single vendor, but orchestrated across providers. Our tools make that future possible.
-
-### What We Build
-
-1. **Vendor-Neutral Agent Infrastructure**: Switch between Claude, GPT, local models, or any provider. Your workflows and context stay portable.
-
-2. **Rust-Powered Performance**: Every core system is built in Rust for memory safety, zero-allocation hot paths, and self-healing reliability.
-
-3. **Agent-First Tooling**: New workflows require new tools. We're building the browsers, memory systems, and factories designed from the ground up for autonomous agents.
-
----
-
-## The Stack
-
-<div align="center">
-
-| **INFERENCE** | **FACTORY** |
-|:---:|:---:|
-| [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Self-Healing Cloud**.<br>High-performance Rust LLM platform<br>inspired by Cloudflare Infire. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>A methodology for agents to build<br>software while you sleep. |
-
-| **MEMORY** | **BROWSER** |
-|:---:|:---:|
-| [![Facet](https://img.shields.io/badge/FACET-Context_OS-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI.<br>Unbundles context from the model.<br>Your data stays yours. | [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **Local AI Browser**.<br>Privacy-first automation that<br>keeps your browsing history local. |
-
-</div>
-
----
-
-## Project Summaries
-
-### [Inferno](https://github.com/dot-matrix-labs/inferno)
-```text
- _ __ _ ____ ____ ____ __ _ ____
- | | \| |--- |=== |--< | \| [__]
-```
-> **"A self-healing cloud for AI inference."**
-
-Inferno is an end-to-end **Rust** LLM micro-platform, request-optimized and kernel-optimized.
-- **Performance**: Zero-allocation request handling patterns for maximum throughput.
-- **Self-Healing**: SWIM protocol for automatic backend discovery and recovery.
-- **Pure Rust**: Memory-safe stack eliminating entire classes of vulnerabilities.
-
-### [Nightshift](https://github.com/dot-matrix-labs/nightshift)
-```text
-   _  ___      __   __      __   _ _____
-  / |/ (_)__ _/ /  / /____ / /  (_) _/ /_
- /    / / _ `/ _ \/ __(_-</ _ \/ / _/ __/
-/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/
-       /___/
-```
-> **"We want agents to work overnight, and the factory must not catch fire."**
-
-Nightshift is a methodology and toolset for **Autonomous Software Factories**.
-- **Git-Brain**: Commits are a "Reasoning Ledger" storing prompt and intent for perfect replayability.
-- **Multi-Agent**: Use different reasoning providers for what they do best, at the right cost.
-- **Deep Context**: A "Documentation Fractal" so agents self-orient without RAG or vector stores.
-
-### [Facet](https://github.com/dot-matrix-labs/facet)
-```text
-  ___            _
- | __|_ _ __ ___| |_
- | _/ _` / _/ -_)  _|
- |_|\__,_\__\___|\__|
-```
-> **"Just as the Browser unbundled the OS from the Web, Facet unbundles Memory from the Model."**
-
-Facet is the **Memory Layer** for AI—a neutral, trusted Context OS.
-- **The Problem**: "Mystery Meat" profiles where users can't control what AI "knows."
-- **The Solution**: Separate memory from reasoning. Your context stays portable and under your control.
-- **GraphRAG**: Knowledge graphs with temporal reasoning, not just keyword search.
-
-### [Robert](https://github.com/dot-matrix-labs/robert-browser)
-```text
- +-+-+-+-+-+-+
- |R|o|b|e|r|t|
- +-+-+-+-+-+-+
-```
-> **"A webdriver library for leveraging AI to drive browsers."**
-
-Robert is a webdriver library for leveraging AI to drive browsers, headlessly or with GUI. It provides the infrastructure to hook AI agents into browser automation workflows.
-
-- **robert-webdriver**: CLI tool and Rust library for connecting AI agents to browser drivers
-- **robert-browser**: Tauri-based desktop application demonstrating Robert's capabilities with separate browser profile, sandboxed from your personal browser.
-- **Local Knowledge Base**: Your workflows, agent configs, and browsing data stay on your machine
-- **Vendor Neutral**: Use Claude today, GPT tomorrow, local models next week—switch freely
-- **Visual Automation**: Watch agents browse and automate tasks in real-time
-
----
 
 ## License
 
 All Dot Matrix Labs projects are available under a **dual license**:
 
-- **Non-Commercial**: Apache 2.0 or MIT, your choice
-- **Commercial**: Requires a commercial license, with reciprocal terms for businesses that open source their operational software
-
-See [LICENSE](https://github.com/dot-matrix-labs/.github/blob/main/LICENSE) for full terms.
-
----
+-   Non-Commercial: Apache 2.0 or MIT
+-   Commercial: Requires a commercial license for proprietary
+    operational deployments
