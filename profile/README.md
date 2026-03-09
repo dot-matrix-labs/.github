@@ -56,7 +56,7 @@ infrastructure**, and **post-human development models**.
 
 ---
 
-### Calypso
+### [Calypso](https://github.com/dot-matrix-labs/calypso)
 
 ```text
   ___      _
@@ -66,22 +66,25 @@ infrastructure**, and **post-human development models**.
              |__/|_|
 ```
 
-Calypso is the **production platform** emerging from research conducted
-at Dot Matrix Labs.
+Calypso is a method, toolset, and reference implementation for building
+**supergreenfield applications** — software designed from the ground up
+for autonomous AI development.
 
-It provides a turnkey environment for deploying and operating
-**autonomous AI systems** in real-world applications.
+The core premise: *N* smart AIs across *N* vendor data silos will always
+produce worse outcomes than a single AI over fused, coherent, owned data.
+Calypso replaces fragmented SaaS stacks with applications that are:
 
-Calypso integrates many of the ideas explored in our research into a
-cohesive operational platform.
+-   **Fused** --- one AI over coherent, owned data
+-   **Tree-shaken** --- only the 5% of features you actually use
+-   **Correct by construction** --- every line verified, no mocks, no ORMs
+-   **Self-improving** --- the agent has live access to logs and telemetry,
+    and enters hardening mode when there is nothing left to build
 
-Deployment models include:
+The reference implementation (**Calypso TS**) uses Bun, React, Tailwind,
+and SQLite/PostgreSQL — no Docker, no ORMs, no SaaS auth vendors. A
+lower-level Rust variant (**Calypso RS**) is in development.
 
--   Community --- open infrastructure
--   Managed --- hosted platform
--   Enterprise --- dedicated deployments
-
-### Alien Stack
+### [Alien Stack](https://github.com/dot-matrix-labs/alien-stack)
 
 ```text
   _   _ _             ___ _           _
@@ -90,37 +93,46 @@ Deployment models include:
 /_/ \_\_|_\___|_|_|_| |___/\__\__,_\__|_\_\
 ```
 
-Alien Stack is an experimental research program exploring **post-human
-software architecture**.
+Alien Stack is a research program investigating **agent-native software
+architecture** — what the software stack looks like when humans are fully
+out of the development loop.
 
-Traditional software stacks assume humans are the primary authors of
-code.\
-Alien Stack explores the opposite premise:
+The central idea: agents don't need human-readable source code. Alien
+Stack explores generating and optimizing **Proof-Carrying Functions (PCFs)**
+directly in LLVM IR, compiled to WebAssembly, with text serving only as
+a navigational view. The architecture rests on three pillars:
 
-> Software ecosystems designed primarily for **AI authorship and
-> autonomous evolution**.
+-   **Isomorphic architecture** --- LLVM IR maps 1-to-1 to the WASM
+    deployment artifact, with no transpiler mangling
+-   **AI-native development** --- code annotated with structural tags
+    (`@module`, `@fn`, `@calls`) so agents navigate via `grep`, not
+    language servers; proofs of behavior verified at link time
+-   **Microkernel client** --- the browser treated as a dumb hardware
+    substrate; zero frameworks, all logic in the Wasm module
 
-This work investigates new primitives for:
+Demos show agent-authored LLVM IR **outperforming equivalent Rust Hyper
+servers** on TechEmpower plaintext benchmarks — built in under 15 minutes,
+no internet searches, no build tool setup.
 
--   agent-native infrastructure
--   autonomous development environments
--   AI-managed software lifecycles
--   self-modifying systems
-
-Alien Stack represents our exploration of **what software engineering
-becomes when AI agents are the primary developers**.
-
-### Inferno
+### [Inferno](https://github.com/dot-matrix-labs/inferno)
 
 ```text
  _ __ _ ____ ____ ____ __ _ ____
  | | \| |--- |=== |--< | \| [__]
 ```
 
-A high-performance LLM inference platform focused on reliability,
-efficiency, and scalable deployment for autonomous systems.
+Inferno is a **self-healing cloud platform for AI inference**, built
+end-to-end in Rust with an emphasis on performance and reliability.
 
-### Nightshift
+A dual-server architecture separates the load-balancing proxy (Pingora)
+from the inference backend (Hyper), with SWIM protocol for self-healing
+node discovery. Performance targets: under 1ms P99 latency, over 100,000
+requests per second, under 1KB memory per concurrent connection.
+
+The **Enterprise Edition** adds Governator AI — automatic GPU profiling,
+optimal model placement, and real-time load distribution adjustments.
+
+### [Nightshift](https://github.com/dot-matrix-labs/nightshift)
 
 ```text
    _  ___      __   __      __   _ _____
@@ -130,11 +142,28 @@ efficiency, and scalable deployment for autonomous systems.
        /___/
 ```
 
-A methodology and toolset for **autonomous software factories**,
-enabling agents to collaborate on development tasks and produce
-maintainable software systems.
+Nightshift is a methodology and toolset for **autonomous software
+factories** — structured so agents can build, maintain, and document
+large software projects without catching fire.
 
-### Facet
+Core concepts:
+
+-   **Git-Brain** --- commits as a Reasoning Ledger; prompt and intent
+    stored in hidden metadata for perfect replayability
+-   **Deep Context** --- a Documentation Fractal anchored by
+    `docs/README.md` that lets agents orient themselves without RAG or
+    vector stores
+-   **Nags** --- mandatory quality gates agents must pass before marking
+    tasks complete
+-   **Semantic Worktrees** --- branches named like file paths
+    (`ns/session/option-a`) to show lineage and intent
+
+Available as a **methodology** (installs `.nightshift/` templates and git
+hooks into any repo) or a **service** (standalone CLI/TUI managing
+multiple agents, API costs, and background runs). Supports Claude Code,
+Cursor, Gemini CLI, and Codex.
+
+### [Facet](https://github.com/dot-matrix-labs/facet)
 
 ```text
   ___            _
@@ -143,10 +172,21 @@ maintainable software systems.
  |_|\__,_\__\___|\__|
 ```
 
-A **memory and context layer for AI systems**, separating persistent
-knowledge from model inference and allowing portable context management.
+Facet is the **Context OS** for AI — a neutral, trusted memory layer that
+separates knowledge management from model inference, giving users full
+control over what data influences AI outputs.
 
-### Robert
+The core insight mirrors how the browser unbundled the OS from the web:
+Facet unbundles memory from the model. A three-layer architecture keeps
+encryption keys on the user's device, sync and computation in Facet's
+cloud, and reasoning providers receiving only anonymized context.
+
+GraphRAG provides entity-relationship mapping with temporal reasoning and
+hierarchical memory tiers (hot/warm/cold), enabling features like
+Reactive Pruning — excluding stale documents from generation without
+deleting them.
+
+### [Robert](https://github.com/dot-matrix-labs/robert-browser)
 
 ```text
  +-+-+-+-+-+-+
@@ -154,9 +194,15 @@ knowledge from model inference and allowing portable context management.
  +-+-+-+-+-+-+
 ```
 
-An automation framework enabling **AI-driven browser workflows**,
-allowing agents to interact with the web, execute tasks, and integrate
-with external systems.
+Robert is a **WebDriver library for AI-driven browser automation**, giving
+agents the infrastructure to hook into browser workflows headlessly or
+visually.
+
+Two components: **robert-webdriver**, a Rust CLI and library for
+connecting agents to browser drivers; and **robert-browser**, a Tauri
+desktop GUI demonstrating the capabilities in an accessible interface.
+Supports headless and visual modes, built for reliability and performance
+in Rust.
 
 ------------------------------------------------------------------------
 
