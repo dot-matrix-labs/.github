@@ -196,45 +196,6 @@ author of code.
 
 ------------------------------------------------------------------------
 
-## Research Philosophy
-
-Dot Matrix Labs operates as a **systems research lab** focused on the
-infrastructure required for autonomous software development.
-
-Our work is guided by several principles:
-
-### Systems Over Demos
-
-We prioritize **production-grade systems** over isolated prototypes.\
-Research artifacts are designed to operate in real infrastructure
-environments, not just laboratory conditions.
-
-### Open Infrastructure
-
-The future of AI development should not depend on a single model
-provider.
-
-Our systems emphasize **vendor-neutral orchestration**, allowing
-workflows to move between providers and local models as capabilities
-evolve.
-
-### Agents as First-Class Developers
-
-Most developer tooling assumes humans are the primary authors of code.
-
-We design infrastructure where **AI agents are first-class participants
-in the development lifecycle**.
-
-### Research Through Building
-
-Many of the most important computing breakthroughs emerged from
-**working systems**, not theoretical papers.
-
-Dot Matrix Labs explores ideas by **building operational infrastructure
-and releasing it publicly**.
-
-------------------------------------------------------------------------
-
 ## Our Product
 
 ### Calypso
