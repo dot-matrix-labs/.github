@@ -44,17 +44,42 @@ infrastructure**, and **post-human development models**.
 
 <div align="center">
 
-| **MEMORY** | **FACTORY** |
+| **PLATFORM** | **ARCHITECTURE** |
 |:---:|:---:|
+| [![Calypso](https://img.shields.io/badge/CALYPSO-Supergreenfield-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/dot-matrix-labs/calypso)<br><br>The **Supergreenfield Platform**.<br>Build entirely new applications<br>with autonomous AI systems. | [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/dot-matrix-labs/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. |
+| **MEMORY** | **FACTORY** |
 | [![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
 | **BROWSER** | **INFERENCE** |
 | [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **AI-Native Browser**.<br>Agents interact with the web<br>and integrate external systems. | [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Inference Platform**.<br>High-performance, reliable LLM<br>deployment for autonomous systems. |
-| **ARCHITECTURE** | **PLATFORM** |
-| [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/dot-matrix-labs/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. | [![Calypso](https://img.shields.io/badge/CALYPSO-Supergreenfield-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/dot-matrix-labs/calypso)<br><br>The **Supergreenfield Platform**.<br>Build entirely new applications<br>with autonomous AI systems. |
 
 </div>
 
 ---
+
+### Calypso
+
+```text
+  ___      _
+ / __|__ _| |_  _ _ __ _____
+| (__/ _` | | || | '_ (_-< _ \
+ \___\__,_|_|\_, | .__/__\___/
+             |__/|_|
+```
+
+Calypso is the **production platform** emerging from research conducted
+at Dot Matrix Labs.
+
+It provides a turnkey environment for deploying and operating
+**autonomous AI systems** in real-world applications.
+
+Calypso integrates many of the ideas explored in our research into a
+cohesive operational platform.
+
+Deployment models include:
+
+-   Community --- open infrastructure
+-   Managed --- hosted platform
+-   Enterprise --- dedicated deployments
 
 ### Alien Stack
 
@@ -193,36 +218,6 @@ rather than humans.
 **Post-Human Software Architecture**\
 Exploring what software engineering becomes when AI is the primary
 author of code.
-
-------------------------------------------------------------------------
-
-## Our Product
-
-### Calypso
-
-```text
-  ___      _
- / __|__ _| |_  _ _ __ _____
-| (__/ _` | | || | '_ (_-< _ \
- \___\__,_|_|\_, | .__/__\___/
-             |__/|_|
-```
-
-Calypso is the **production platform** emerging from research conducted
-at Dot Matrix Labs.
-
-It provides a turnkey environment for deploying and operating
-**autonomous AI systems** in real-world applications.
-
-Calypso integrates many of the ideas explored in our research into a
-cohesive operational platform.
-
-Deployment models include:
-
--   Community --- open infrastructure
--   Managed --- hosted platform
--   Enterprise --- dedicated deployments
-
 
 ------------------------------------------------------------------------
 
