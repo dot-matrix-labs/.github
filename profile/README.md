@@ -40,6 +40,101 @@ infrastructure**, and **post-human development models**.
 
 ------------------------------------------------------------------------
 
+## Our Research
+
+<div align="center">
+
+| **MEMORY** | **FACTORY** |
+|:---:|:---:|
+| [![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
+| **BROWSER** | **INFERENCE** |
+| [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **AI-Native Browser**.<br>Agents interact with the web<br>and integrate external systems. | [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Inference Platform**.<br>High-performance, reliable LLM<br>deployment for autonomous systems. |
+| **ARCHITECTURE** | **PLATFORM** |
+| [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/dot-matrix-labs/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. | [![Calypso](https://img.shields.io/badge/CALYPSO-Supergreenfield-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/dot-matrix-labs/calypso)<br><br>The **Supergreenfield Platform**.<br>Build entirely new applications<br>with autonomous AI systems. |
+
+</div>
+
+---
+
+### Alien Stack
+
+```text
+  _   _ _             ___ _           _
+ /_\ | (_)___ _ __   / __| |_ __ _ __| |__
+/ _ \| | / -_) '  \  \__ \  _/ _` / _| / /
+/_/ \_\_|_\___|_|_|_| |___/\__\__,_\__|_\_\
+```
+
+Alien Stack is an experimental research program exploring **post-human
+software architecture**.
+
+Traditional software stacks assume humans are the primary authors of
+code.\
+Alien Stack explores the opposite premise:
+
+> Software ecosystems designed primarily for **AI authorship and
+> autonomous evolution**.
+
+This work investigates new primitives for:
+
+-   agent-native infrastructure
+-   autonomous development environments
+-   AI-managed software lifecycles
+-   self-modifying systems
+
+Alien Stack represents our exploration of **what software engineering
+becomes when AI agents are the primary developers**.
+
+### Inferno
+
+```text
+ _ __ _ ____ ____ ____ __ _ ____
+ | | \| |--- |=== |--< | \| [__]
+```
+
+A high-performance LLM inference platform focused on reliability,
+efficiency, and scalable deployment for autonomous systems.
+
+### Nightshift
+
+```text
+   _  ___      __   __      __   _ _____
+  / |/ (_)__ _/ /  / /____ / /  (_) _/ /_
+ /    / / _ `/ _ \/ __(_-</ _ \/ / _/ __/
+/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/
+       /___/
+```
+
+A methodology and toolset for **autonomous software factories**,
+enabling agents to collaborate on development tasks and produce
+maintainable software systems.
+
+### Facet
+
+```text
+  ___            _
+ | __|_ _ __ ___| |_
+ | _/ _` / _/ -_)  _|
+ |_|\__,_\__\___|\__|
+```
+
+A **memory and context layer for AI systems**, separating persistent
+knowledge from model inference and allowing portable context management.
+
+### Robert
+
+```text
+ +-+-+-+-+-+-+
+ |R|o|b|e|r|t|
+ +-+-+-+-+-+-+
+```
+
+An automation framework enabling **AI-driven browser workflows**,
+allowing agents to interact with the web, execute tasks, and integrate
+with external systems.
+
+------------------------------------------------------------------------
+
 ## A Moment of Opportunity
 
 Software is entering a new era.
@@ -137,105 +232,6 @@ Many of the most important computing breakthroughs emerged from
 
 Dot Matrix Labs explores ideas by **building operational infrastructure
 and releasing it publicly**.
-
-------------------------------------------------------------------------
-
-## Our Research
-
-<div align="center">
-
-| **MEMORY** | **FACTORY** |
-|:---:|:---:|
-| [![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/facet)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/dot-matrix-labs/nightshift)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
-
-| **BROWSER** | **INFERENCE** |
-|:---:|:---:|
-| [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/dot-matrix-labs/robert-browser)<br><br>The **AI-Native Browser**.<br>Agents interact with the web<br>and integrate external systems. | [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/dot-matrix-labs/inferno)<br><br>The **Inference Platform**.<br>High-performance, reliable LLM<br>deployment for autonomous systems. |
-
-| **ARCHITECTURE** | **PLATFORM** |
-|:---:|:---:|
-| [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/dot-matrix-labs/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. | [![Calypso](https://img.shields.io/badge/CALYPSO-Supergreenfield-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/dot-matrix-labs/calypso)<br><br>The **Supergreenfield Platform**.<br>Build entirely new applications<br>with autonomous AI systems. |
-
-</div>
-
----
-
-### Alien Stack
-
-```text
-  _   _ _             ___ _           _
- /_\ | (_)___ _ __   / __| |_ __ _ __| |__
-/ _ \| | / -_) '  \  \__ \  _/ _` / _| / /
-/_/ \_\_|_\___|_|_|_| |___/\__\__,_\__|_\_\
-```
-
-Alien Stack is an experimental research program exploring **post-human
-software architecture**.
-
-Traditional software stacks assume humans are the primary authors of
-code.\
-Alien Stack explores the opposite premise:
-
-> Software ecosystems designed primarily for **AI authorship and
-> autonomous evolution**.
-
-This work investigates new primitives for:
-
--   agent-native infrastructure
--   autonomous development environments
--   AI-managed software lifecycles
--   self-modifying systems
-
-Alien Stack represents our exploration of **what software engineering
-becomes when AI agents are the primary developers**.
-
-### Inferno
-
-```text
- _ __ _ ____ ____ ____ __ _ ____
- | | \| |--- |=== |--< | \| [__]
-```
-
-A high-performance LLM inference platform focused on reliability,
-efficiency, and scalable deployment for autonomous systems.
-
-### Nightshift
-
-```text
-   _  ___      __   __      __   _ _____
-  / |/ (_)__ _/ /  / /____ / /  (_) _/ /_
- /    / / _ `/ _ \/ __(_-</ _ \/ / _/ __/
-/_/|_/_/\_, /_//_/\__/___/_//_/_/_/ \__/
-       /___/
-```
-
-A methodology and toolset for **autonomous software factories**,
-enabling agents to collaborate on development tasks and produce
-maintainable software systems.
-
-### Facet
-
-```text
-  ___            _
- | __|_ _ __ ___| |_
- | _/ _` / _/ -_)  _|
- |_|\__,_\__\___|\__|
-```
-
-A **memory and context layer for AI systems**, separating persistent
-knowledge from model inference and allowing portable context management.
-
-### Robert
-
-```text
- +-+-+-+-+-+-+
- |R|o|b|e|r|t|
- +-+-+-+-+-+-+
-```
-
-An automation framework enabling **AI-driven browser workflows**,
-allowing agents to interact with the web, execute tasks, and integrate
-with external systems.
 
 ------------------------------------------------------------------------
 
